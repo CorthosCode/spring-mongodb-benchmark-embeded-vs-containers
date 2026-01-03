@@ -1,0 +1,14 @@
+services:
+  db:
+    image: mongo:7.0
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: test
+      MONGO_INITDB_ROOT_PASSWORD: test
+      MONGO_INITDB_DATABASE: mydb
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
