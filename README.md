@@ -69,3 +69,5 @@ Result:
 - **Testcontainers** benefits significantly from warm-up but still introduces a noticeable overhead compared to Flapdoodle.
 
 - For scenarios where build speed and feedback loop time are critical, Flapdoodle demonstrates a clear advantage.
+
+![result](./result.png)
